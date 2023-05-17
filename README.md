@@ -25,3 +25,4 @@ npm run build # builds files into dist/ directory
 npm run watch # same as build, but watches for changes
 npm run clean # start fresh
 ```
+https://stackblitz.com/github/fullcalendar/fullcalendar-examples/tree/main/react?file=README.md
