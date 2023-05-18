@@ -1,28 +1,35 @@
+# Calendar Planner
 
-# FullCalendar React Example Project
+This is a calendar planner application built using JavaScript and React. It allows users to manage their schedule, events, and appointments effectively.
 
-For complete instructions on how to initialize your build system, see the [FullCalendar React Docs &raquo;](https://fullcalendar.io/docs/react)
+## Features
 
-**About this example:** the state for events is owned by the FullCalendar instance and then emitted via `eventsSet` to be used elsewhere in the app. This is easier than owning the state in a parent component because FullCalendar can take care of requesting, parsing, and mutating event data instead of your reducer. However, this technique will only work when a FullCalendar component is rendered. If you need access to your event data when a FullCalendar component is NOT rendered, please take a look at the [React+Redux example &raquo;](../react-redux)
+- **Calendar View:** The application provides a clean and intuitive calendar interface, allowing users to view their schedule at a glance.
+- **Event Creation:** Users can easily create new events by providing event details such as title, date, time, and duration.
+- **Event Editing:** The application enables users to edit event details, such as changing the title, date, time, or duration of an existing event.
+- **Event Deletion:** Users can delete events they no longer need, removing them from their schedule.
 
+## To run
+Click [here](https://stackblitz.com/github/Telomelonia/Calendar_planner) to preview the current state of the web application.
 
 ## Installation
 
-```bash
-git clone https://github.com/fullcalendar/fullcalendar-examples.git
-cd fullcalendar-examples/react
-npm install
-```
+To install and run the calendar planner locally, follow these steps:
 
+1. Clone the repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd calendar-planner`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to access the application.
 
-## Build Commands
+## Future Plans
 
-```bash
-npm run start # builds and opens a web browser
+Some exciting features planned for future updates of the calendar planner:
 
-# other commands:
-npm run build # builds files into dist/ directory
-npm run watch # same as build, but watches for changes
-npm run clean # start fresh
-```
-https://stackblitz.com/github/fullcalendar/fullcalendar-examples/tree/main/react?file=README.md
+- [ ] **Recurring Events:** The calendar supports the ability to create recurring events, allowing users to set events that repeat on a specific schedule (daily, weekly, monthly, etc.).
+- [ ] **Google Calendar Integration:** Users can link their calendar to the Google Calendar API, enabling synchronization of events between the application and their Google Calendar account. This feature allows for seamless transfer of events from Gmail, such as meeting invitations, directly to the calendar planner.
+- [ ] **Collaborative Scheduling:** Introducing collaboration features that allow users to share their calendars with others, enabling group scheduling and coordination.
+
+Working to improve the calendar planner and welcome any feedback or feature requests from our users.
+
+Feel free to explore the codebase and make any modifications or enhancements as per your requirements.
