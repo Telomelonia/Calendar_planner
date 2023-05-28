@@ -26,6 +26,7 @@ To install and run the calendar planner locally, follow these steps:
 Some exciting features planned for future updates of the calendar planner:
 
 - [ ] **Recurring Events:** The calendar supports the ability to create recurring events, allowing users to set events that repeat on a specific schedule (daily, weekly, monthly, etc.).
+- [ ] **Security:** Allows only few users to manipulate events.
 - [ ] **Google Calendar Integration:** Users can link their calendar to the Google Calendar API, enabling synchronization of events between the application and their Google Calendar account. This feature allows for seamless transfer of events from Gmail, such as meeting invitations, directly to the calendar planner.
 - [ ] **Collaborative Scheduling:** Introducing collaboration features that allow users to share their calendars with others, enabling group scheduling and coordination.
 
