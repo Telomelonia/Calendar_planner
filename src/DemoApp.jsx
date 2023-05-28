@@ -12,6 +12,7 @@ export default class DemoApp extends React.Component {
     currentEvents: [],
   };
 
+//rendering the FullCalendar view
   render() {
     return (
       <div className="demo-app">
@@ -74,13 +75,13 @@ export default class DemoApp extends React.Component {
       weekendsVisible: !this.state.weekendsVisible,
     });
   };
-
+  // Create new event
   handleDateSelect = (selectInfo) => {
     let title = prompt('Please enter a new title for your event');
     let calendarApi = selectInfo.view.calendar;
 
     calendarApi.unselect(); // clear date selection
-
+    // Update event
     if (title) {
       calendarApi.addEvent({
         id: createEventId(),
@@ -91,6 +92,7 @@ export default class DemoApp extends React.Component {
       });
     }
   };
+  // Delete event
 
   handleEventClick = (clickInfo) => {
     if (
@@ -117,7 +119,7 @@ function renderEventContent(eventInfo) {
     </>
   );
 }
-
+// Read - displays a list of events
 function renderSidebarEvent(event) {
   return (
     <li key={event.id}>
