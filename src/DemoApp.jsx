@@ -40,17 +40,6 @@ export default class DemoApp extends React.Component {
       </div>
     );
   }
-  sidebar2() {
-    return (
-      <div id="main">
-        <button class="openbtn" onclick="openNav()">
-          &#9776; Open Sidebar
-        </button>
-        <h2>Collapsed Sidebar</h2>
-        <p>Content...</p>
-      </div>
-    );
-  }
   renderSidebar() {
     return (
       <div className="demo-app-sidebar">
